@@ -6,14 +6,48 @@
 .center{
     text-align:center;
     font-family: 'Quattrocento Sans', serif;
+    font-size: 30px
 }
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+    10% {
+        color: orange;
+    }
+    20% {
+        color: yellow;
+    }
+    30% {
+        color: green;
+    }
+    40% {
+        color: blue;
+    }
+}
+
 .center h2 {
-    font: "Quattrocento Sans", serif;
+    font: "Quattrocento Sans", sans-serif;
+    animation: rainbow 10s infinite;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 .button {
     background: greenyellow;
+    font-family: 'Quattrocento Sans', sans-serif;
     width:fit-content;
     border-radius: 50px;
     padding: 20px;
+    text-decoration: none;
+    color: black;    
     margin: 10px;
+    transition: background 2s 500ms;
+}
+
+.button:hover {
+    background: blue;
 }
