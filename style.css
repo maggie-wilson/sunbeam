@@ -39,3 +39,16 @@ a {
 .button:hover {
     background-color: var(--button-activated);
 }
+
+.aboutus h3{
+    font-family: "Quattrocento Sans", sans-serif;
+    color:black;
+    text-align:center;
+}
+
+.aboutus p{
+    font-family: "Quattrocento Sans", sans-serif;
+    color:black;
+    text-align:center;
+}
+
