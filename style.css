@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    --button-color: #a1c5ff;
+    --button-activated: cornflowerblue;
+}
+
 .header{
     color:navy;
     font-size: 45px;
@@ -9,27 +15,9 @@
     font-size: 30px
 }
 
-@keyframes rainbow {
-    0% {
-        color: red;
-    }
-    10% {
-        color: orange;
-    }
-    20% {
-        color: yellow;
-    }
-    30% {
-        color: green;
-    }
-    40% {
-        color: blue;
-    }
-}
 
 .center h2 {
     font: "Quattrocento Sans", sans-serif;
-    animation: rainbow 10s infinite;
 }
 
 a {
@@ -37,7 +25,7 @@ a {
     color: black;
 }
 .button {
-    background: greenyellow;
+    background-color: var(--button-color);
     font-family: 'Quattrocento Sans', sans-serif;
     width:fit-content;
     border-radius: 50px;
@@ -45,9 +33,9 @@ a {
     text-decoration: none;
     color: black;    
     margin: 10px;
-    transition: background 2s 500ms;
+    transition: background 2s;
 }
 
 .button:hover {
-    background: blue;
+    background-color: var(--button-activated);
 }
