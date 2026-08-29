@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    --button-color: #a1c5ff;
+    --button-activated: cornflowerblue;
+}
+
+.intro {
+    text-align: center;                       
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.intro h1{
+color:cornflowerblue
+}
+
+.intro h2{
+color:cornflowerblue
+}
